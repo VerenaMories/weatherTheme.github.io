@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo (1).png" class="w-100" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <h1 class="text-white">
+              Weather
+              <p class="description  ">tagline goes here</p>
+            </h1>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Live cameras </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Photos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="layer" class="layer">
+      <div class="container">
+        <div class="search">
+          <input
+            type="text"
+            name=""
+            class="type"
+            id="search"
+            placeholder="Find Your Location..."
+          />
+          <input type="button" value="Find" id="Find" class="find" />
+        </div>
+      </div>
+    </div>
+    <div class="weather">
+      <div class="container">
+        <div class="weather-container">
+          <div class="today-weather">
+            <div class="today-header">
+              <div class="day" id="day">wednesday</div>
+              <div class="date" id="date">12 jan</div>
+            </div>
+            <div class="today-content" id="todayContent">
+            <div class="location" id="town">cairo</div>
+
+
+              <div class="degree" id="degree">
+
+            <div class="number">15 <span>&#8451;</span></div>
+
+                <div class="today-img">
+                  <img src="images/113.png" id="currentImg" class="w-100" alt="" />
+                </div>
+              </div>
+              <div class="condition" id="cond">cloud</div>
+              <span><img src="images/icon-umberella.png" alt="" /> 20%</span>
+              <span><img src="images/icon-wind.png" alt="" /> 18km/h</span>
+              <span><img src="images/icon-compass.png" alt="" /> west</span>
+            </div>
+          </div>
+          <div class="climet">
+            <div class="climet-header">
+              <div class="day" id="nextDay">Thursday</div>
+            </div>
+            <div class="climet-content">
+              <div class="climet-img">
+                <img src="images/116.png" id="nextDayImg" class="w-10" alt="" />
+              </div>
+              <div id="nextDayTempMax" class="degree">20.3 <span>&#x2103;</span></div>
+              <small id="nextDayTempMin">12 <span>o</span></small>
+              <div class="status" id="condNextDay">Partly cloudy</div>
+            </div>
+          </div>
+          <div class="climet-two">
+            <div class="climet-header">
+              <div class="day" id="dayAfter">Friday</div>
+            </div>
+            <div class="climet-content">
+              <div class="climet-img">
+                <img src="images/176.png" id="dayAfterImg" class="w-10" alt="" />
+              </div>
+              <div id="dayAfterTempMax" class="degree">20.3 <span>&#x2103;</span></div>
+              <small id="dayAfterTempMin">12 <span>o</span></small>
+              <div class="status" id="condDayAfter">Patchy rain possible</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="weather-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="search">
+                        <input
+                          type="text"
+                          name=""
+                          class="type"
+                          id="search"
+                          placeholder="Enter your email to subscribe..."
+                        />
+                        <input type="button" value="Subscribe" id="Subscribe" class="find" />
+                      </div>
+                </div>
+                <div class="col-md-3 offset-1">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
